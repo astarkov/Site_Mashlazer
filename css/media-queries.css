@@ -1,0 +1,266 @@
+@media only screen and (max-width: 1380px){
+
+}
+@media only screen and (max-width: 1100px){
+	.contact-menu:after,
+	.logo:after{
+		content: '';
+		display: table;
+		clear:both;
+	}
+	.wrap-bg{
+		height: 906px;
+		-webkit-background-size: cover;
+		-moz-background-size: cover;
+		-ms-background-size: cover;
+		-o-background-size: cover;
+		background-size: cover; 
+	}
+
+	.contact-menu {
+		width: 326px;
+		float: none;
+		margin: 15px auto 15px;
+	}
+	.logo{
+		margin: 15px auto;
+		max-width: 775px;
+		width: 100%;
+	}
+	.top-nav{
+		float: none;
+	}
+	.logo img {
+		max-width: 100%;
+		height: auto;
+	}
+
+	.call-back-two {
+		width: 326px;
+		margin: 0 auto;
+		float: none;
+	}
+	.container {
+		padding: 0 15px;
+	}
+	.secondary-nav.index {margin-top: 15px;}
+	.main-menu {
+		margin-top: 45px;
+	}
+}
+@media only screen and (max-width: 900px){
+	 .top-touch-menu{display: block;}
+	 .touch-menu{
+	 	display: block;
+	 }
+	 .content {
+	 	margin-top: 62px;
+	 }
+.secondary-nav.about {
+	width: auto;
+	display: none;
+	position: fixed;
+	top: 36px;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background-color: #6bacd6;
+	text-align: left;
+
+}
+.secondary-nav.about ul{
+	width: 152px;
+	margin: 0 auto;
+}
+.secondary-nav.about li{
+	display: block;
+	margin-bottom: 3px;
+}
+.secondary-nav.about a:hover{
+color: #98ddde;
+
+	text-decoration: none;
+}
+.about-sidebar {
+	float: none;
+width: auto;
+}
+.button-nav{
+	display: inline-block;
+	vertical-align: middle;
+	text-align: center;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+.button-nav a {
+	display: block;
+	padding: 0 15px;
+}
+.button-nav li {
+	display: inline-block;
+	margin-top: 0 !important;
+	margin-right: 10px;
+	margin-top: 15px !important;
+}
+.button-nav li:last-child{margin-right: 0;}
+.about-sidebar {text-align: center;}
+.about-company {
+    margin-left: 0;
+}
+}
+
+@media only screen and (max-width: 780px){
+	.main-menu {
+		margin-left: 19%;
+		float: left;
+	}
+}
+
+@media only screen and (max-width: 720px){
+	.secondary-nav.index a {
+		font-size: 16px;
+		line-height: 25px;
+		height: 25px;
+		padding: 0 10px;
+	}
+}
+@media only screen and (max-width: 712px){
+	.main-menu {margin-right: 18px;}
+}
+
+@media only screen and (max-width: 700px){
+	.wrap-bg{height: 920px;}
+	.main-menu {
+		float: none;
+		margin: 15px auto 0;
+		transform: none;
+	}
+	.main-menu li span,
+	.main-menu li a {
+		transform: none;
+		position: static;
+		width: auto;
+		font-size: 14px;
+		padding: 20px 5px 0 !important;
+	}
+
+	.main-menu li a:after {
+		transform: none;
+		left: 36% !important;
+		top: 44% ;
+	}
+	.main-menu li.adress a:after{
+		top: 58%;
+	}
+	.main-menu li.boxer a:after {
+		left: 28% !important;
+		top: 39%;
+	}
+	.main-menu li.adress span::after{
+		left: 59px;
+		top: 99px;
+	}
+	.main-menu li.parts a::after {top: 44%;}
+	.main-menu li.days-week span::after{
+		left: 56px;
+		top: 76px;
+	}
+}
+@media only screen and (max-width: 540px){
+	.top-nav{
+		margin: 0 auto !important;
+		max-width: 380px;
+	}
+		.logo img{float: none;}
+	.logo img:after{
+		content: '';
+		display: table;
+		clear:both;
+}
+	
+	.top-nav li a {
+		font-size: 10px;
+	}
+	.top-nav li + li a::before {height: 11px;}
+
+	.contact-menu .language {
+		display: none;
+	}
+	.contact-menu {
+		width: 302px;
+	}
+	.call-back-two {
+		width: 277px;
+	}
+}
+@media only screen and (max-width: 420px){
+	.top-nav {
+		max-width: 198px;
+	}
+	.wrap-bg{height: 765px;}
+	.secondary-nav.index a {
+		font-size: 12px;
+		padding: 0 7px;
+	}
+	.main-menu {
+		margin: 15px auto 0;
+		width: 278px;
+	}
+		.main-menu li{
+			float: none;
+			display: inline-block;
+		margin-bottom: 10px !important;
+		}
+	.main-menu li:nth-child(2n+1){
+		margin-right: 5%;
+	}
+	
+	.main-menu li {
+		/*background: transparent url("../img/equipment-small!.png") no-repeat scroll center center cover ;*/
+		width: 130px;
+		height: 130px;
+
+	}
+	.main-menu li span::after, .main-menu li a::after {
+		background: transparent url("../img/sprite-menu-small.png") no-repeat scroll -10px 0;
+	width: 44px;
+	height: 44px;
+	left: 45% ;
+	top: 45% ;
+	}
+	.main-menu li.adress span::after{
+		width: 54px;
+		height: 54px;
+		background-position: -12px -44px;
+    left: 48px;
+    top: 78px;
+
+	}
+	.main-menu li.boxer a::after {
+		width: 76px;
+		height: 66px;
+		background-position: -12px -98px;
+	}
+	.main-menu li.parts a::after {
+			width: 72px;
+		height: 57px;
+		background-position: -12px -165px;
+	}
+	.main-menu li.days-week span::after{
+		left: 49px;
+    top: 70px;
+				width: 39px;
+		height: 37px;
+		background-position: -7px -221px;
+	}
+	.main-menu li a{
+		font-size: 12px;
+	}
+	.main-menu li span{
+		font-size: 11px !important;
+	}
+}
+
+@media only screen and (max-width: 360px){
+
+}
